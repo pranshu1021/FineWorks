@@ -1,0 +1,47 @@
+.hero{
+    height: 100vh;
+
+    background-image: url("./assets/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    gap: 65px;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.hero-content{
+    color: white;
+    max-width: 600px;
+}
+
+.hero-content h1{
+    font-size: 60px;
+}
+
+.hero-content p{
+    font-size: 20px;
+}
+.hero-illustration img{
+    height: 400px;
+    width: 650px;
+    border-radius: 10px;
+    border: gold solid 1px
+}
+.hero-button{
+    font-size: 18px;
+    text-decoration:none;
+    font-weight: 300;
+    color:black;
+    width: 150px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: gold;
+    border-radius: 8px;
+}
+.hero-content h1 span{
+    color: gold;
+}

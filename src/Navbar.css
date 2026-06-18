@@ -1,1 +1,53 @@
-div{background-color:red}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.logo-holder{
+    margin-top: 4px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo-holder img{
+    height: 60px;
+    width: auto;
+}
+.logo-holder h3{
+    margin-left: 5px;
+    color: gold;
+    margin-top: 3px;
+}
+.nav-btns{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-right: 15px;
+
+    /* background-color: red; */
+    gap: 60px;
+    justify-content: flex-end;
+}
+.nav-links{
+    font-size: 18px;
+    text-decoration:none;
+    font-weight: 300;
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.nav-button{
+    font-size: 18px;
+    text-decoration:none;
+    font-weight: 300;
+    color:black;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    background-color: gold;
+    border-radius: 8px;
+}
