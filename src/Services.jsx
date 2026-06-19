@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import "./Services.css"
+import Cards from "./Cards.jsx";
 function Services(){
-    return (
+    return (<>
         <section>
               <motion.div
     initial={{ y: 100, opacity: 0 }}
@@ -19,11 +20,12 @@ function Services(){
             </p>
             </div>
             </motion.div>
-
-            <div>
-                
+                        <div className="card-container">
+                <Cards/>
             </div>
+
         </section>
+        </>
     )
 }
 

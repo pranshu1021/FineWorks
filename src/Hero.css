@@ -1,47 +1,98 @@
 .hero{
-    height: 100vh;
-
+    min-height: 100vh;
     background-image: url("./assets/background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
     display: flex;
-    gap: 65px;
     align-items: center;
-    padding-left: 100px;
+    justify-content: space-between;
+    gap: 65px;
+    padding: 60px 60px 80px;
 }
 
 .hero-content{
     color: white;
-    max-width: 600px;
+    max-width: 540px;
+    width: 100%;
 }
 
 .hero-content h1{
-    font-size: 60px;
+    font-size: clamp(2.8rem, 5vw, 4.2rem);
+    line-height: 1.05;
+    margin: 0;
 }
 
 .hero-content p{
-    font-size: 20px;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    line-height: 1.8;
+    margin-top: 20px;
+}
+.hero-illustration{
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hero-illustration img{
-    height: 400px;
-    width: 650px;
+    width: 100%;
+    max-width: 650px;
+    height: auto;
     border-radius: 10px;
-    border: gold solid 1px
+    border: gold solid 1px;
+    object-fit: cover;
 }
 .hero-button{
-    font-size: 18px;
-    text-decoration:none;
-    font-weight: 300;
-    color:black;
-    width: 150px;
-    margin-top: 10px;
-    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    margin-top: 24px;
+    padding: 14px 28px;
     text-align: center;
     background-color: gold;
-    border-radius: 8px;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
 }
 .hero-content h1 span{
     color: gold;
 }
+
+@media (max-width: 1024px) {
+    .hero{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 50px 24px 60px;
+    }
+    .hero-illustration{
+        width: 100%;
+        max-width: 780px;
+    }
+    .hero-content{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 680px) {
+    .hero{
+        align-items: center;
+        padding: 36px 18px 40px;
+    }
+    .hero-content{
+        text-align: center;
+    }
+    .hero-content p{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero-button{
+        width: 100%;
+        max-width: 320px;
+    }
+}
+

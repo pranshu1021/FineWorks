@@ -2,14 +2,14 @@ import "./App.css";
 import Navbar from "./Navbar.jsx";
 import Hero from "./Hero.jsx";
 import Services from "./Services.jsx";
-import Cards from "./Cards.jsx";
+import Whyus from "./Whyus.jsx"
 function App() {
   return (
     <div> 
       <Navbar/>
       <Hero/>
       <Services/>
-      <Cards/>
+      <Whyus/>
     </div>
   );                   
 }

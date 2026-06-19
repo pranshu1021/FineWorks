@@ -1,0 +1,229 @@
+h1{
+    font-size: 60px;
+}
+body{
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+.why-us{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+    min-height: 100vh;
+    padding: 30px 40px 60px;
+    width: 100%;
+}
+.left-part{
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 160px;
+    max-width: 720px;
+    width: 100%;
+}
+.right-part{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 20px 0 0;
+    width: 100%;
+    max-width: 720px;
+}
+h1{
+    max-width: 800px;
+}
+.left-part p{
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 20px;
+    max-width: 700px;
+    line-height: 1.7;
+}
+.left-part a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 14px 28px;
+    margin-top: 16px;
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.98), rgba(255, 175, 0, 0.9));
+    color: rgb(31, 30, 30);
+    font-weight: 700;
+    border-radius: 999px;
+    text-decoration: none;
+    box-shadow: 0 18px 36px rgba(255, 200, 60, 0.22);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+.left-part a:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 24px 48px rgba(255, 200, 60, 0.28);
+    background: linear-gradient(135deg, rgba(255, 225, 100, 1), rgba(255, 190, 0, 1));
+}
+.tab-holder{
+    display: flex;
+    margin-top: 25px;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.tab p{
+    margin-top: 0px;
+}
+
+.tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    border: solid 1px gold;
+    border-radius: 10px;
+    width: 220px;
+    padding: 14px 12px;
+    background: rgba(255, 255, 255, 0.03);
+}
+.tab h3{
+    font-size: 28px;
+    color: gold;
+    margin: 0;
+}
+
+.icon-card{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 20px;
+    border: 1px solid rgba(255, 215, 0, 0.35);
+    background: rgba(255, 215, 0, 0.12);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    max-width: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.icon-card p{
+    max-width: 500px;
+}
+.icon-card .icon{
+    display: flex;
+    border: solid yellow 0.5px;
+    border-radius: 8px;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1000px) {
+    .why-us{
+        flex-direction: column;
+        align-items: center;
+        min-height: auto;
+        padding: 30px 24px 40px;
+    }
+
+    .left-part{
+        padding-top: 120px;
+        max-width: 100%;
+    }
+
+    .right-part{
+        padding: 0;
+        margin-top: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .tab-holder{
+        justify-content: center;
+    }
+
+    .tab{
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .icon-card{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 760px) {
+    h1{
+        font-size: 42px;
+    }
+
+    .left-part{
+        padding-top: 80px;
+    }
+
+    .left-part p{
+        font-size: 18px;
+    }
+
+    .tab{
+        width: 100%;
+        max-width: none;
+    }
+
+    .icon-card{
+        flex-direction: column;
+        align-items: stretch;
+        gap: 16px;
+        padding: 16px;
+    }
+
+    .icon-card .icon{
+        margin: 0 auto;
+    }
+
+    .left-part a{
+        width: 100%;
+        max-width: 420px;
+        padding: 14px 18px;
+    }
+}
+
+@media (max-width: 520px) {
+    .why-us{
+        padding: 18px 12px 30px;
+    }
+
+    h1{
+        font-size: 34px;
+    }
+
+    .left-part{
+        padding-top: 50px;
+        gap: 18px;
+    }
+
+    .left-part p{
+        margin-top: 16px;
+        padding: 6px;
+        font-size: 17px;
+    }
+
+    .tab{
+        border-radius: 12px;
+        padding: 12px 10px;
+    }
+
+    .icon-card{
+        padding: 14px;
+    }
+
+    .icon-card .icon{
+        height: 44px;
+        width: 44px;
+    }
+}
