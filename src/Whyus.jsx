@@ -11,7 +11,7 @@ function Whyus(){
  return(
     <><div className="why-us">
         <motion.div className="left-part">
-            <h1>A Company That Delivers Without Compromise</h1>
+            <h1>A Company That Delivers<span> Without Compromise</span></h1>
             <p>We combine technical excellence with business strategy to build digital 
                 products that don't just look great — they perform, convert, and scale with your business.</p>
             <div className="tab-holder">
