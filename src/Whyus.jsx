@@ -9,7 +9,7 @@ import StarIcon from "./StarIcon";
 import HeadphoneMicIcon from "./HeadphoneMicIcon";
 function Whyus(){
  return(
-    <><div className="why-us">
+    <><div className="why-us" id="why-us">
         <motion.div className="left-part">
             <h1>A Company That Delivers<span> Without Compromise</span></h1>
             <p>We combine technical excellence with business strategy to build digital 
@@ -28,7 +28,7 @@ function Whyus(){
                 <p>Satisfaction</p>
                 </div>
             </div>
-            <a href="">Work With Us</a>
+            <a href="#contact">Work With Us</a>
         </motion.div>
         <motion.div className="right-part">
                 <div className="icon-card">
@@ -61,7 +61,7 @@ function Whyus(){
         </motion.div>
         </div>
     </>
- )
+)
 }
 
 export default Whyus;

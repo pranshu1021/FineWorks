@@ -1,6 +1,6 @@
 h2{
-    color: yellow;
-    font-size: 32px;
+
+    font-size: 50px;
 }
 
 #header{
@@ -9,4 +9,13 @@ flex-direction: column;
 gap: 15px;
 justify-content: center;
 align-items: center;
+margin-bottom: 50px;
+}
+.Project-heading span{
+  color: gold;
+}
+.Project-para{
+  font-size: 20px;
+  max-width: 700px;
+  text-align: center;
 }

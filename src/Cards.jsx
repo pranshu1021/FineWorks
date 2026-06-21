@@ -8,7 +8,7 @@ import Portfolio from "./assets/portfolio.png"
 import Maintain from "./assets/maintain.png"
 function Cards(){
 return (
-    <div class="card parent">
+    <div className="card parent">
         <motion.div className="card card-1"
         initial={{ x: -200, opacity: 0 }}
     whileInView={{ x: 0, opacity: 1 }}
@@ -23,7 +23,7 @@ return (
   }}>
         <img src={Web} alt="" />
         
-        <div class="card-content">
+        <div className="card-content">
             <h2>Website Development</h2>
             <p>Custom, responsive websites tailored to your brand identity and business objectives — from landing pages to complex multi-page sites.</p>
         </div>
@@ -41,7 +41,7 @@ return (
   }}>
         <img src={Reactapp} alt="" />
         
-        <div class="card-content">
+        <div className="card-content">
             <h2>React Applications</h2>
             <p>Fast, scalable single-page and full-stack React applications built with modern architecture, clean code, and optimal performance.</p>
     
@@ -60,7 +60,7 @@ return (
   }}>
         <img src={UxUi} alt="" />
         
-        <div class="card-content">
+        <div className="card-content">
             <h2>UI/UX Design</h2>
             <p>Beautiful, intuitive interfaces designed with user psychology in mind. From wireframes to pixel-perfect Figma prototypes.</p>
             
@@ -79,7 +79,7 @@ return (
   }}>
         <img src={Ecom} alt="" />
         
-        <div class="card-content">
+        <div className="card-content">
             <h2>E-Commerce Websites</h2>
             <p>Fully-featured online stores with secure payments, inventory management, order tracking, and conversion-optimized product pages.</p>
 
@@ -98,7 +98,7 @@ return (
   }}>
         <img src={Portfolio} alt="" />
         
-        <div class="card-content">
+        <div className="card-content">
             <h2>Portfolio Websites</h2>
             <p>Stunning personal and professional portfolios that showcase your work with elegance, tell your story, and attract the right opportunities.</p>
 
@@ -117,7 +117,7 @@ return (
   }}>
         <img src={Maintain} alt="" />
         
-        <div class="card-content">
+        <div className="card-content">
             <h2>Website Maintenance</h2>
             <p>Ongoing updates, security patches, performance optimization, content management, and dedicated technical support for peace of mind.</p>
 

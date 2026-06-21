@@ -3,7 +3,7 @@ import "./Services.css"
 import Cards from "./Cards.jsx";
 function Services(){
     return (<>
-        <section>
+        <section id="services">
               <motion.div
     initial={{ y: 100, opacity: 0 }}
     whileInView={{ y: 0, opacity: 1 }}

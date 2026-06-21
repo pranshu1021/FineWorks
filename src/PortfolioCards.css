@@ -62,7 +62,7 @@
     }
 }
 
-@media (max-width: 680x) {
+@media (max-width: 680px) {
     .card.card-1{
         max-width: 100%;
     }

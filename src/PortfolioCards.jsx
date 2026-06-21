@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 import "./PortfolioCards.css";
-import Web from "./assets/webdev-thumbnail.png"
-import Reactapp from "./assets/react-apps.png"
-import UxUi from "./assets/UxUi.png"
-import Ecom from "./assets/ecom.png"
-import Portfolio from "./assets/portfolio.png"
-import Maintain from "./assets/maintain.png"
+import AnswerNest from "./assets/answernest.png"
+import IndianMart from "./assets/indianmart.jpeg"
+import CalmNest from "./assets/calmnest.png"
+// import Ecom from "./assets/ecom.png"
+// import Portfolio from "./assets/portfolio.png"
+// import Maintain from "./assets/maintain.png"
 function PortfolioCards(){
 return (
-    <div class="card parent">
+    <div className="card parent">
         <motion.div className="card card-1"
         initial={{ x: -200, opacity: 0 }}
     whileInView={{ x: 0, opacity: 1 }}
@@ -21,12 +21,12 @@ return (
     damping: 15
   }
   }}>
-        <img src={Web} alt="" />
+        <img src={AnswerNest} alt="" />
         
-        <div class="card-content">
-            <h2>Website Development</h2>
-            <p>Custom, responsive websites tailored to your brand identity and business objectives — from landing pages to complex multi-page sites.</p>
-            <a className="cards-btn" href="">Visit</a>
+        <div className="card-content">
+            <h2>AnswerNest - Ask What Matters</h2>
+            <p>AnswerNest is a community-driven Q&A platform where users can ask questions, share knowledge, and collaborate through discussions.</p>
+            <a className="cards-btn" href="https://testingrender-pg82.onrender.com/">Visit Site</a>
         </div>
         </motion.div>
                 <motion.div className="card card-1" initial={{ x: -200, opacity: 0 }}
@@ -40,12 +40,13 @@ return (
     damping: 15
   }
   }}>
-        <img src={Reactapp} alt="" />
+        <img src={IndianMart} alt="" />
         
-        <div class="card-content">
-            <h2>React Applications</h2>
-            <p>Fast, scalable single-page and full-stack React applications built with modern architecture, clean code, and optimal performance.</p>
-     <a className="cards-btn" href="">Visit</a>
+        <div className="card-content">
+            <h2>Indian Mart - Make Buying Fun</h2>
+            <p>Developed a responsive e-commerce frontend using React. Implemented Dark/Light theme switching, modern UI components and user friendly.
+</p>
+     <a className="cards-btn" href="https://indian-mart.onrender.com/">Visit Site</a>
         </div>
         </motion.div>
                 <motion.div className="card card-1" initial={{ x: -200, opacity: 0 }}
@@ -59,15 +60,15 @@ return (
     damping: 15
   }
   }}>
-        <img src={UxUi} alt="" />
+        <img src={CalmNest} alt="" />
         
-        <div class="card-content">
-            <h2>UI/UX Design</h2>
-            <p>Beautiful, intuitive interfaces designed with user psychology in mind. From wireframes to pixel-perfect Figma prototypes.</p>
-             <a className="cards-btn" href="">Visit</a>
+        <div className="card-content">
+            <h2>CalmNest</h2>
+            <p>CalmNest is a relaxation-focused web app developed using React, designed to help users unwind through nature sounds, interactive music tools, and an AI-powered companion.</p>
+             <a className="cards-btn" href="https://pranshu1021.github.io/CalmNest/index.html">Visit Site</a>
         </div>
         </motion.div>
-                <motion.div className="card card-1" initial={{ x: -200, opacity: 0 }}
+                {/* <motion.div className="card card-1" initial={{ x: -200, opacity: 0 }}
     whileInView={{ x: 0, opacity: 1 }}
     viewport={{ once: false, amount: 0.3 }} whileHover={{ scale: 1.03 }}
     transition={{
@@ -80,10 +81,10 @@ return (
   }}>
         <img src={Ecom} alt="" />
         
-        <div class="card-content">
+        <div className="card-content">
             <h2>E-Commerce Websites</h2>
             <p>Fully-featured online stores with secure payments, inventory management, order tracking, and conversion-optimized product pages.</p>
-            <a className="cards-btn" href="">Visit</a>
+            <a className="cards-btn" href="#contact">Visit</a>
         </div>
         </motion.div>
                 <motion.div className="card card-1" initial={{ x: -200, opacity: 0 }}
@@ -99,10 +100,10 @@ return (
   }}>
         <img src={Portfolio} alt="" />
         
-        <div class="card-content">
+        <div className="card-content">
             <h2>Portfolio Websites</h2>
             <p>Stunning personal and professional portfolios that showcase your work with elegance, tell your story, and attract the right opportunities.</p>
-            <a className="cards-btn" href="">Visit</a>
+            <a className="cards-btn" href="#contact">Visit</a>
         </div>
         </motion.div>
                 <motion.div className="card card-1" initial={{ x: -200, opacity: 0 }}
@@ -118,13 +119,15 @@ return (
   }}>
         <img src={Maintain} alt="" />
         
-        <div class="card-content">
+        <div className="card-content">
             <h2>Website Maintenance</h2>
             <p>Ongoing updates, security patches, performance optimization, content management, and dedicated technical support for peace of mind.</p>
-                <a className="cards-btn" href="">Visit</a>
+                <a className="cards-btn" href="#contact">Visit</a>
         </div>
-        </motion.div>
+        </motion.div> */}
+        <a className="cards-btn" href="#contact">Start Your Project</a>
     </div>
+    
     
 
 )
