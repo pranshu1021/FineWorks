@@ -5,7 +5,7 @@ function Footer() {
     <footer className="site-footer">
       <div className="footer-inner">
         <div className="footer-brand">
-          <div className="footer-logo">FineWorks</div>
+          <div className="footer-logo">TheFineWorks</div>
           <p>
             Building premium digital products for startups and ambitious teams.
             Modern web experiences, delivered with speed and craft.
